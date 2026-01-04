@@ -1,0 +1,8 @@
+name = "gb-cms-helppage"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = "."
+
+[dev]
+ip = "0.0.0.0"
+port = 8788
+local_protocol = "http"
