@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lkmio - 流媒体服务器</title>
+    <title>LinkMedia - 流媒体服务器</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,8 +12,7 @@
     <header>
         <nav>
             <a href="index.html" class="logo">
-                <img src="logo.png" alt="lkmio Logo" style="height: 40px; vertical-align: middle; margin-right: 10px;">
-                lkmio
+                <img src="logo.svg" alt="lkmio Logo" style="height: 40px; vertical-align: middle;">
             </a>
             <div class="nav-links">
                 <a href="index.html">首页</a>
@@ -25,23 +24,23 @@
 
     <main>
         <section class="hero">
-            <h1>lkmio 信令服务器</h1>
+            <h1>LinkMedia一站式流媒体解决方案</h1>
             <p>基于Go语言实现的高性能GB28181信令服务器，支持JT1078转GB28181，无缝对接LiveGBS前端。</p>
             <a href="api_docs.html" class="btn">查看 API 文档</a>
         </section>
 
         <section class="features">
             <div class="feature-card">
-                <h3>高性能 Go 实现</h3>
-                <p>利用 Go 语言的高并发特性，提供稳定可靠的信令处理能力。</p>
+                <h3>lkmio/lkm</h3>
+                <p>高性能流媒体服务器，支持 RTMP, RTSP, WebRTC, HTTP-FLV 等多种协议，利用 Go 语言的高并发特性，提供稳定可靠的流媒体处理能力。</p>
             </div>
             <div class="feature-card">
-                <h3>GB28181 标准支持</h3>
-                <p>全面支持国标28181协议，包括设备注册、目录查询、视频预览等核心功能。</p>
+                <h3>lkmio/gb-cms</h3>
+                <p>GB28181 信令服务核心实现，全面支持国标28181协议（注册、目录、预览等），并独家支持 JT1078 到 GB28181 的协议转换，完美适配 LiveGBS 前端。</p>
             </div>
             <div class="feature-card">
-                <h3>JT1078 互通</h3>
-                <p>独有的 JT1078 到 GB28181 转换功能，打通部标与国标视频流。</p>
+                <h3>lkmio/avformat</h3>
+                <p>专注于音视频容器格式处理的库，提供高效的解复用（Demuxing）和复用（Muxing）功能，是流媒体服务的底层基石。</p>
             </div>
             <div class="feature-card">
                 <h3>API 友好</h3>
